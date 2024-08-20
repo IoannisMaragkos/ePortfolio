@@ -87,7 +87,6 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-
 	}
 
 	html {
@@ -116,7 +115,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #37a6cb;
+		/*color: #ffffff;*/
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
@@ -129,7 +129,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -137,7 +136,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 		@media screen and (max-width: 360px) {
@@ -145,7 +143,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
 		}
 
 	a {
@@ -177,13 +174,15 @@ input, select, textarea {
 	}
 
 	p {
+		color: #fffefe;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #37a6cb;
+		/*color: #da4533;*/
 		font-weight: 600;
-		line-height: 1.65;
+		line-height: 1.15;
 		margin: 0 0 1em 0;
 	}
 
@@ -193,6 +192,7 @@ input, select, textarea {
 		}
 
 	h1 {
+		color: #fffefe;
 		font-size: 2.5em;
 	}
 
@@ -205,6 +205,7 @@ input, select, textarea {
 	}
 
 	h4 {
+		color: #fffefe;
 		font-size: 1.1em;
 	}
 
@@ -1784,7 +1785,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #c5c5c5;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -2752,7 +2753,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 50%;
 		}
 
 			.tiles article .image {
@@ -2827,31 +2828,31 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 50%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #fffefe;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #010001;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #010001;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #fffefe;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #fffefe;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #010001;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3410,7 +3411,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #010001;
 			content: '';
 			display: block;
 			height: 100%;
