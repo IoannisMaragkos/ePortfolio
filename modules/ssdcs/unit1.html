@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<title>Ioannis Maragkos e-Portfolio | MSc Computer Science | University of Essex </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /> </noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="../../index.html" class="logo"><strong>Ioannis Maragkos</strong> <span>MSc Computer Science </span> </a>
+						<nav>
+							<a href="#menu">Menu </a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="../../index.html">Home </a> </li>
+							<li><a href="../../landing.html">Landing </a> </li>
+							<li><a href="../../modules/ssdcs/ssdcs.html">Secure Software Development </a> </li>
+							<li><a href="../../generic.html">Generic </a> </li>
+							<li><a href="../../elements.html">Elements </a> </li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started </a> </li>
+							<li><a href="#" class="button fit">Log In </a> </li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h4><a href="../../modules/ssdcs/ssdcs.html">Secure Software Development (Computer Science) </a> </h4>
+										<h1>Unit 1 </h1>
+									</header>
+									<h3>Discussion Topic - Initial Posting</h3>
+									<p>Select one of the coding weaknesses which have been identified by OWASP and create a UML flowchart of the steps which may have led to the weakness occurring. Which UML models might you use to present the design of your proposed software, and why are they the most appropriate choice(s)?</p>
+									<details>
+											<summary id="unit-learning-outcomes-summary">
+												Learning Outcomes
+											</summary>
+											<ul id="unit-learning-outcomes-list">
+												<li>Identify and manage security risks as part of a software development project.</li>
+												<li>Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.</li>
+											</ul>
+										</details>
+									<hr style="border-width:thick">
+									<p>The Open Worldwide Application Security Project (OWASP) Foundation publishes the “Top 10 Web Application Security Risks” to draw attention to the most important risks that are a fundamental part of application development (OWASP Foundation, 2024). According to the top 10 for 2021, OWASP Foundation (2024) identifies in the fourth position the vulnerability of “Insecure Design”.</p>
+									<p>Insecure design emphasises on risks around mistakes made during the software design and the software architecture that can be expressed as “missing or ineffective control design” (OWASP Foundation, 2021). More broadly speaking, insecure design pertains to the practice of developing software solutions where the design of the system does not adhere to secure design patterns and best-practice architectural methodologies. This results to the creation of weaknesses which a bad actor could abuse.</p>
+									<p>One of the example scenarios for insecure design offered by the OWASP Foundation (2021) is one where the design of the cinema booking system has a vulnerability in its activity flow which could potentially allow a bad actor to abuse it and lead to major loss of earnings. Below, I created two flow charts that depict the decision sequence based on this scenario, one with an insecure design flaw and another with a safeguard against that flaw.</p>
+									<p>The first chart features the steps leading to a particular weakness relating to insecure design. Namely, bad actors could potentially flood the booking system with free booking reservations each one made for tickets less than a certain threshold (15) and not turn up in the venue to purchase the reserved tickets. The problematic control flow is highlighted in red colour.</p>
+									<span class="image main"><img src="../../images/modules/ssdcs/unit%201%20-%20Flowchart%20-%20Insecure%20Design%20Prevention.png" alt="" /> </span>
+									<p>In the second chart, the design of the system includes a safeguard against abusing the booking system by enforcing that a deposit is requested regardless of the number of tickets in the reservations. This change in the activity flow (highlighted in green colour) means that it would no longer be free for any bad actors to make artificial reservations.</p>
+									<span class="image main"><img src="../../images/modules/ssdcs/unit%201%20-%20Flowchart%20-%20Insecure%20Design%20Prevention.png" alt="" /> </span>
+									<p>According to Revniuk et. al. (2024), the insecure design vulnerability arises from inadequate threat modelling performed during the software design phase. The OWASP Foundation (2021) advocates for more threat modelling as one of the key steps developers should follow in guarding against the risk of insecure design. By utilising UML diagrams, the developers of the software solution can visualise all potential activity flows and identify risks or vulnerabilities found in their proposed design. Flowcharts and activity diagrams can be used as means of producing threat modelling analysis for modelling the system, identifying weak points and developing countermeasures.</p>
+									<p id="reference-title">References:</p>
+									<p id="references">
+										OWASP Foundation (2021) OWASP AO4:2021 – Insecure Design. Available from: https://owasp.org/Top10/A04_2021-Insecure_Design [Accessed 5 August 2024].<br><span style="display: block; height: 0.8em;"></span>
+										OWASP Foundation (2024) OWASP Top 10. Available from: https://owasp.org/www-project-top-ten [Accessed 4 August 2024].<br><span style="display: block; height: 0.8em;"></span>
+										Revniuk, O. A. et al. (2024) The improvement of web-application SDL process to prevent Insecure Design vulnerabilities. Applied Aspects of Information Technology. 7(2): 162–174. Available from: https://essex.primo.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=6258710200007346&institutionId=7346&customerId=7345&VE=true [Accessed 2 August 2024].<br><span style="display: block; height: 0.8em;"></span>
+										Alexander Oni (2022) A Detailed Guide to the OWASP Top 10. Available from: https://learning.oreilly.com/course/a-detailed-guide/9781837630554 [Accessed 06 July 2024].<br>
+									</p>
+								</div>
+							</section>
+					</div>
+
+				<!-- Contact -->
+<!--					<section id="contact">-->
+<!--						<div class="inner">-->
+<!--							<section>-->
+<!--								<form method="post" action="#">-->
+<!--									<div class="fields">-->
+<!--										<div class="field half">-->
+<!--											<label for="name">Name </label>-->
+<!--											<input type="text" name="name" id="name" />-->
+<!--										</div>-->
+<!--										<div class="field half">-->
+<!--											<label for="email">Email </label>-->
+<!--											<input type="text" name="email" id="email" />-->
+<!--										</div>-->
+<!--										<div class="field">-->
+<!--											<label for="message">Message </label>-->
+<!--											<textarea name="message" id="message" rows="6"> </textarea>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<ul class="actions">-->
+<!--										<li><input type="submit" value="Send Message" class="primary" /> </li>-->
+<!--										<li><input type="reset" value="Clear" /> </li>-->
+<!--									</ul>-->
+<!--								</form>-->
+<!--							</section>-->
+<!--							<section class="split">-->
+<!--								<section>-->
+<!--									<div class="contact-method">-->
+<!--										<span class="icon solid alt fa-envelope"> </span>-->
+<!--										<h3>Email </h3>-->
+<!--										<a href="#">information@untitled.tld </a>-->
+<!--									</div>-->
+<!--								</section>-->
+<!--								<section>-->
+<!--									<div class="contact-method">-->
+<!--										<span class="icon solid alt fa-phone"> </span>-->
+<!--										<h3>Phone </h3>-->
+<!--										<span>(000) 000-0000 x12387 </span>-->
+<!--									</div>-->
+<!--								</section>-->
+<!--								<section>-->
+<!--									<div class="contact-method">-->
+<!--										<span class="icon solid alt fa-home"> </span>-->
+<!--										<h3>Address </h3>-->
+<!--										<span>1234 Somewhere Road #5432 <br/>-->
+<!--										Nashville, TN 00000 <br/>-->
+<!--										United States of America </span>-->
+<!--									</div>-->
+<!--								</section>-->
+<!--							</section>-->
+<!--						</div>-->
+<!--					</section>-->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+<!--							<ul class="icons">-->
+<!--								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+<!--								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+<!--								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+<!--								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>-->
+<!--								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
+<!--							</ul>-->
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a> </li>
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"> </script>
+			<script src="../../assets/js/jquery.scrolly.min.js"> </script>
+			<script src="../../assets/js/jquery.scrollex.min.js"> </script>
+			<script src="../../assets/js/browser.min.js"> </script>
+			<script src="../../assets/js/breakpoints.min.js"> </script>
+			<script src="../../assets/js/util.js"> </script>
+			<script src="../../assets/js/main.js"> </script>
+	</body>
+</html>
